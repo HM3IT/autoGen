@@ -12,6 +12,7 @@ dependencies = [
     "ipynb>=0.5.1",
     "jupyter>=1.1.1",
     "jupyter-kernel-gateway>=3.0.1",
+    "litestar[standard]>=2.15.1",
     "pip>=25.0.1",
     "python-dotenv>=1.0.1",
 ]
