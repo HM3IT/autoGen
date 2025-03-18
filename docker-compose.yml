@@ -1,0 +1,16 @@
+services:
+  kernel_gateway:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: myimage:latest
+    ports:
+      - "8888:8888"
+    environment:
+      - TOKEN=UNSET
+    networks:
+      - kg_network
+
+networks:
+  kg_network:
+    driver: bridge
