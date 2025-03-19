@@ -5,8 +5,9 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = "==3.12.8"
 dependencies = [
-    "autogen-agentchat>=0.4.9.2",
+    "autogen-agentchat[chromadb]>=0.4.9.2",
     "autogen-ext[mcp,openai,web-surfer]>=0.4.9.2",
+    "chromadb>=0.6.3",
     "docker>=7.1.0",
     "ipykernel>=6.29.5",
     "ipynb>=0.5.1",

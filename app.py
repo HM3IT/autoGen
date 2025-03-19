@@ -144,7 +144,7 @@ class ChatWebSocket(WebSocket):
             name="yoda",
             model_client=model_client,
             system_message="Repeat the same message in the tone of Yoda.",
-        )
+        ) 
         user_proxy = UserProxyAgent(
             name="user",
             input_func=user_input_func,  # Use the user input function.
